@@ -1,4 +1,4 @@
 aert-scripts-exec
 =================
 
-Batch programs, for I/O processing.
+Command line tools for data file processing.
