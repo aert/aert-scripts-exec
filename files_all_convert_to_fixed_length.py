@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+
 def main():
     tailleFixe = 80
     ficEntree = '<HERE-INPUT-FILE-PATH>'
@@ -7,7 +8,7 @@ def main():
 
     numLigne = 0
     with open(ficEntree, "r") as fEntree, \
-         open(ficSortie, "w") as fSortie:
+            open(ficSortie, "w") as fSortie:
 
         for line in fEntree:
             lineIn = line.rstrip('\r\n')

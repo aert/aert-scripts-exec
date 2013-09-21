@@ -5,6 +5,7 @@ from optparse import OptionParser
 import json
 import codecs
 
+
 def run(egrep, file_path):
 
     matches = egrep.split('|')
@@ -26,7 +27,7 @@ def run(egrep, file_path):
                      indent=4, separators=(',', ': '))
     print "Not FOUND:"
     for match in matches:
-        if len(results[match]) < 2 :
+        if len(results[match]) < 2:
             print '    %s' % match
 
 
@@ -36,7 +37,7 @@ if __name__ == '__main__':
     parser = OptionParser(usage=usage, version="%prog 1.0")
 
     (options, args) = parser.parse_args()
-    
+
     if len(sys.argv) != 3:
         parser.print_help()
 
