@@ -17,5 +17,5 @@ files_csv_get_columns_widths.rb
     Display each column's width using the first line of the input file.
 
 files_log_group_grep_results.py
-    Process the output of the grep command.
+    Converts grep's output to JSON format.
 
